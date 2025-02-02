@@ -1,0 +1,13 @@
+INSTANCE,#STATES,#TRANS,#ITER,#PRES,#TABLENODES,#RESULTMARKNODES,MAXPATH,MAXSIZE,RESULT 
+./allBenchmarks/wahl-kroening_easy/double_lock_p3_vs_satabs.1/main,46,80,5,400,4779466,15411,65,46826,unsafe
+./allBenchmarks/wahl-kroening_easy/rand_cas_vs_satabs.1/main,48,52,13,676,115272,313,56,435,unsafe
+./allBenchmarks/wahl-kroening_easy/dekker_vs_satabs.1/main,41,120,4,480,676401,841,52,3879,unsafe
+./allBenchmarks/wahl-kroening_easy/rand_lock_p0_vs_satabs.1/main,29,42,4,168,96298,1337,42,1514,unsafe
+./allBenchmarks/wahl-kroening_easy/stack_cas_p0_vs_satabs.1/main,41,70,14,980,7274411,1436,62,42307,unsafe
+./allBenchmarks/wahl-kroening_easy/Function_Pointer3_vs_satabs.1/main,40,70,3,210,377008,3718,52,5484,unsafe
+./allBenchmarks/wahl-kroening_easy/spin2003_vs_satabs.1/main,27,34,6,204,373913,1912,41,4629,unsafe
+./allBenchmarks/wahl-kroening_easy/szymanski_vs_satabs.1/main,61,224,6,1344,7152293,3381,78,16630,unsafe
+./allBenchmarks/wahl-kroening_easy/rand_cas_vs_satabs.2/main,110,138,6,828,201555,529,118,645,safe
+./allBenchmarks/wahl-kroening_easy/rand_lock_p0_vs_satabs.2/main,110,288,5,1440,4056448,8639,123,13143,unsafe
+./allBenchmarks/wahl-kroening_easy/lu-fig2_fixed_vs_satabs.1/main,39,36,5,180,63314,831,46,831,unsafe
+./allBenchmarks/wahl-kroening_easy/stack_lock_p0_vs_satabs.1/main,37,58,13,754,3515018,627,57,26070,unsafe

@@ -1,0 +1,16 @@
+INSTANCE,#STATES,#TRANS,#ITER,#PRES,#TABLENODES,#RESULTMARKNODES,RESULT 
+extendedread-write-smallconsts,24,22,24,528,322684,1245,safe
+pingpong,6,6,4,24,427,28,safe
+leabasicapproach,16,12,2,24,4030,180,unsafe
+bingham_h150,153,301,152,45752,7315594,911,safe
+fms_attic,22,20,27,540,228830,2431,safe
+mesh2x2,32,32,5,160,30142,271,safe
+pncsasemiliv,31,36,7,252,340348,1652,unsafe
+manufacturing,13,6,14,84,89483,1489,safe
+csm,14,13,5,65,5210,93,safe
+bingham_h25,28,51,27,1377,48969,161,safe
+kanban,16,16,11,176,571617,1132,unsafe
+basicME,5,4,3,12,365,31,safe
+pncsacover,31,36,15,540,7015463,779,unsafe
+bingham_h50,53,101,52,5252,316044,311,safe
+mesh3x2,52,54,8,432,202945,796,safe

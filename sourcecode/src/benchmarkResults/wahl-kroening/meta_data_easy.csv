@@ -1,0 +1,5 @@
+INSTANCE,#STATES,#TRANS,#ITER,#PRES,#TABLENODES,#RESULTMARKNODES,MAXPATH,MAXSIZE,RESULT 
+./allBenchmarks/wahl-kroening_easy/double_lock_p3_vs_satabs.1/main,46,80,5,400,4779466,15411,65,46826,unsafe
+./allBenchmarks/wahl-kroening_easy/rand_cas_vs_satabs.1/main,48,52,13,676,115272,313,56,435,unsafe
+./allBenchmarks/wahl-kroening_easy/dekker_vs_satabs.1/main,41,120,4,480,676401,841,52,3879,unsafe
+./allBenchmarks/wahl-kroening_easy/rand_lock_p0_vs_satabs.1/main,29,42,4,168,96298,1337,42,1514,unsafe

@@ -1,0 +1,13 @@
+digraph g
+{
+graph [ splines = false ] 
+2947 [shape=octagon label="2947 "]
+2947 -> 2947 [label=1] 
+2947 -> 8 [label=T] 
+8 [shape=octagon label="8 11*T"]
+8 -> 7 [label=1] 
+7 [shape=octagon label="7 1*T"]
+7 -> 7 [label=1] 
+7 -> 2 [label=T] 
+2 [shape=doubleoctagon label="2 &#949;"]
+}

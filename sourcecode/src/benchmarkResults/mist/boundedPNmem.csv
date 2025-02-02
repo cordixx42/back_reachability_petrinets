@@ -1,0 +1,6 @@
+./allBenchmarks/mist/boundedPN/lamport.spec,Safe,2480
+./allBenchmarks/mist/boundedPN/read-write.spec,Safe,5072
+./allBenchmarks/mist/boundedPN/peterson.spec,Safe,3824
+./allBenchmarks/mist/boundedPN/kanban.spec,Safe,136768
+./allBenchmarks/mist/boundedPN/newdekker.spec,Safe,18048
+./allBenchmarks/mist/boundedPN/newrtp.spec,Safe,1776

@@ -1,0 +1,7 @@
+INSTANCE,#STATES,#TRANS,#ITER,#PRES,#TABLENODES,#RESULTMARKNODES,MAXPATH,MAXSIZE,RESULT 
+./allBenchmarks/soter_easy/stutter__we_abhorr_as__depth_0,87,22,10,220,300609,2265,102,4785,unsafe
+./allBenchmarks/soter_easy/unsafe_send__sending_to_non-pid__depth_0,35,13,7,91,29521,658,47,726,unsafe
+./allBenchmarks/soter_easy/unsafe_send__sending_to_non-pid__depth_1,35,13,7,91,29521,658,47,726,unsafe
+./allBenchmarks/soter_easy/stutter__we_abhorr_as__depth_1,107,28,11,308,2629826,12556,125,29459,unsafe
+./allBenchmarks/soter_easy/stutter__we_abhorr_as__depth_2,107,28,11,308,2629826,12556,125,29459,unsafe
+./allBenchmarks/soter_easy/unsafe_send__sending_to_non-pid__depth_2,35,13,7,91,29521,658,47,726,unsafe

@@ -1,0 +1,44 @@
+digraph g
+{
+subgraph dfa {
+graph [ splines = false ] 
+3 [shape=octagon label="3 "]
+3 -> 3 [label=a] 
+3 -> 2 [label=b] 
+3 -> 0 [label=c] 
+2 [shape=doubleoctagon label="2 &#949;"]
+2 -> 0 [label=a] 
+2 -> 0 [label=b] 
+2 -> 0 [label=c] 
+0 [shape=octagon label="0 &#8709;"]
+0 -> 0 [label=a] 
+0 -> 0 [label=b] 
+0 -> 0 [label=c] 
+}
+subgraph transducer {
+1 [shape=octagon label="1"]
+2 [shape=doubleoctagon label="2"]
+1 -> 2 [label="(b,b)"]
+1 [shape=doubleoctagon label="1"]
+1 [shape=octagon label="1"]
+1 -> 1 [label="(a,b)"]
+1 [shape=octagon label="1"]
+3 [shape=octagon label="3"]
+1 -> 3 [label="(b,a)"]
+}
+subgraph preResult {
+graph [ splines = false ] 
+4 [shape=octagon label="4 "]
+4 -> 0 [label=a] 
+4 -> 2 [label=b] 
+4 -> 0 [label=c] 
+0 [shape=octagon label="0 &#8709;"]
+0 -> 0 [label=a] 
+0 -> 0 [label=b] 
+0 -> 0 [label=c] 
+2 [shape=doubleoctagon label="2 &#949;"]
+2 -> 0 [label=a] 
+2 -> 0 [label=b] 
+2 -> 0 [label=c] 
+}
+}

@@ -1,0 +1,10 @@
+INSTANCE,#STATES,#TRANS,#ITER,#PRES,#TABLENODES,#RESULTMARKNODES,MAXPATH,MAXSIZE,RESULT 
+./allBenchmarks/wahl-kroening_easy_rest/conditionals_vs_satabs.2/main,214,280,6,1680,779485,1132,220,1446,safe
+./allBenchmarks/wahl-kroening_easy_rest/buggy_spaghetti_vf_satabs.2/main,326,696,12,8352,1980031,1224,330,1224,unsafe
+./allBenchmarks/wahl-kroening_easy_rest/peterson_vs_satabs.1/main,31,64,4,256,247208,442,43,4422,unsafe
+./allBenchmarks/wahl-kroening_easy_rest/constants_vf_satabs.1/main,26,24,8,192,7631,86,30,86,unsafe
+./allBenchmarks/wahl-kroening_easy_rest/buggy_spaghetti_vf_satabs.1/main,78,114,8,912,76258,286,82,286,unsafe
+./allBenchmarks/wahl-kroening_easy_rest/conditionals_vs_satabs.1/main,50,54,12,648,97910,392,56,544,unsafe
+./allBenchmarks/wahl-kroening_easy_rest/simple_loop5_vs_satabs.1/main,31,48,6,288,516557,501,49,8051,unsafe
+./allBenchmarks/wahl-kroening_easy_rest/Boop_simple_vf_satabs.1/main,31,30,14,420,32330,178,36,187,unsafe
+./allBenchmarks/wahl-kroening_easy_rest/constants_vf_satabs.2/main,262,392,14,5488,1473699,960,266,960,unsafe

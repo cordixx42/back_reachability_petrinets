@@ -1,0 +1,12 @@
+digraph g
+{
+1 [shape=doubleoctagon label="1"]
+2 [shape=octagon label="2"]
+1 -> 2 [label="(a,b)"]
+1 [shape=doubleoctagon label="1"]
+1 [shape=doubleoctagon label="1"]
+1 -> 1 [label="(a,a)"]
+1 [shape=doubleoctagon label="1"]
+1 [shape=doubleoctagon label="1"]
+1 -> 1 [label="(b,b)"]
+}

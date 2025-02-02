@@ -1,0 +1,7 @@
+digraph g
+{
+graph [ splines = false ] 
+1 [shape=doubleoctagon label="1 "]
+1 -> 1 [label=a] 
+1 -> 1 [label=b] 
+}

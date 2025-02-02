@@ -1,0 +1,7 @@
+INSTANCE,#STATES,#TRANS,#ITER,#PRES,#TABLENODES,#RESULTMARKNODES,RESULT 
+lamport,11,9,5,45,3210,62,safe
+read-write,13,9,9,81,9923,236,safe
+peterson,14,12,6,72,6799,181,safe
+kanban,16,16,18,288,574675,768,safe
+newdekker,16,14,8,112,51804,895,safe
+newrtp,9,12,6,72,939,29,safe

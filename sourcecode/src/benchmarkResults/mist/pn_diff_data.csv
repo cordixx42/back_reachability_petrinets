@@ -1,0 +1,4 @@
+INSTANCE,#STATES,#TRANS
+"./allBenchmarks/mist_PN_difficult/bingham_h150.spec",153,301
+"./allBenchmarks/mist_PN_difficult/extendedread-write.spec",24,22
+"./allBenchmarks/mist_PN_difficult/bingham_h250.spec",253,501

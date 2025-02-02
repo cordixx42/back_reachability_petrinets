@@ -1,0 +1,35 @@
+# comments
+S ::= vars
+     set_of_vars
+     rules
+     set_of_rules
+     init
+     init_states
+     target
+     target_states
+     invariants
+     invariant_set
+set_of_vars::= variable , set_of_vars
+                 | variable
+set_of_rules::=  guard -> effect;  set_of_rules
+                 | epsilon
+guard ::= guard_atom , guard
+        | guard_atom
+guard_atom ::= variable >= integer
+             | variable =integer
+             | variable in [integer, integer]
+effect ::= effect_atom , effect
+            | effect_atom
+effect_atom ::= variable' = assignment_var
+assignment_var ::= variable + assignment_var
+                 | integer
+init_states ::= guard init_states
+              | guard
+target_states ::= guard target_states
+                | guard
+
+invariant_set ::= invariant EOL invariant_set
+                | epsilon
+invariant ::= invariant_atom , invariant
+                | invariant_atom
+invariant_atom::=variable = integer

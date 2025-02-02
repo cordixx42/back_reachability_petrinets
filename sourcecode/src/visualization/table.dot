@@ -1,0 +1,13 @@
+digraph g
+{
+graph [ splines = false ] 
+0 [shape=octagon label="0 "]
+0 -> 0 [label=a] 
+0 -> 0 [label=b] 
+1 [shape=doubleoctagon label="1 "]
+1 -> 1 [label=a] 
+1 -> 1 [label=b] 
+2 [shape=doubleoctagon label="2 "]
+2 -> 0 [label=a] 
+2 -> 0 [label=b] 
+}
